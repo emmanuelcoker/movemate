@@ -186,8 +186,8 @@ fun AvailableVehicleHome(modifier: Modifier = Modifier) {
 private fun HomePreview() {
     MoveMateTheme {
         Box(modifier = Modifier.fillMaxSize()) {
-//            HomeScreen(mainUiState = MainUiState())
-            ProfileBar()
+            HomeScreen(mainUiState = MainUiState())
+//            ProfileBar()
         }
     }
 }

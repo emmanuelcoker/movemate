@@ -89,9 +89,9 @@ class MainActivity : ComponentActivity() {
                                     mainViewModel = mainViewModel
                                 )
 
-                                shipmentGraph(
+                               shipmentGraph(
                                     navController = navController,
-                                    mainViewModel = mainViewModel
+                                     mainViewModel = mainViewModel
                                 )
 
                                 calculatorGraph(
